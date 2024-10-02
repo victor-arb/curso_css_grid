@@ -7,7 +7,7 @@ html{
     display: grid;
     grid-auto-flow: column;
     grid-template-rows: 200px 200px 200px;
-    grid-template-columns: 200px 200px;
+    grid-auto-columns: 200px;
     gap:20px;
     justify-content: center;
     align-content: center;
@@ -18,9 +18,11 @@ html{
     font-size: 5rem;
     font-weight: bold;
     color:white;
-    display: flex;
+    /* display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: flex-end; */
+    display: grid;
+    place-items: end;
 }
 span {
     background-color: green;
