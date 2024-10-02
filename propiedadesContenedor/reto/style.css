@@ -1,0 +1,27 @@
+html{
+    font-size: 62.5%;
+}
+.contenedor {
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px;
+    gap:20px;
+    justify-content: center;
+    align-content: center;
+}
+.item {
+    /* border: 5px solid #00bcd4; */
+    background-color: yellowgreen;
+    font-size: 5rem;
+    font-weight: bold;
+    color:white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+span {
+    background-color: green;
+}
