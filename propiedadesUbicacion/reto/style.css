@@ -1,0 +1,52 @@
+html{
+    font-size: 62.5%;
+}
+.container{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-auto-rows: 150px;
+    place-content: center;
+    grid-template-areas: 
+        "box1 box2 box2"
+        "box3 box3 box4"
+        "box5 box6 box7"; /*Segunda forma*/
+    height: 600px;
+}
+.item {
+    font-size: 5rem;
+    color: white
+}
+/*No se muestran los numeros de momento*/
+.item span {
+    display: none;
+}
+.box-1{
+    background-color: yellowgreen;
+    grid-area: box1;
+}
+.box-2{
+    background-color: rgb(0, 255, 47);
+    grid-area: box2;
+}
+.box-3{
+    background-color: green;
+    grid-area: box3;
+}
+.box-4{
+    background-color: rgb(231, 231, 80);
+    grid-area: box4;
+}
+.box-5{
+    background-color: rgb(171, 255, 3);
+    grid-area: box5;
+}
+.box-6{
+    background-color: rgb(117, 170, 11);
+    grid-area: box6;
+}
+.box-7{
+    background-color: rgb(75, 112, 0);
+    grid-area: box7;
+}
